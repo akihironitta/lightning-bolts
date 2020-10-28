@@ -74,7 +74,7 @@ jobs:
       uses: actions/cache@v2
       with:
         path: tmp
-        key: pl-datasets
+        key: pl-datasets-${{ hashFile('tests/datamodules/test_datamodules.py') }}
 
     - name: Tests
       run: |
