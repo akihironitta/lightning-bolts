@@ -33,7 +33,7 @@ def test_cli_run_self_supervised_cpc(cli_args):
 
 
 @pytest.mark.parametrize('cli_args', [
-    f'--data_dir {DATASETS_PATH} --max_epochs 1 --max_steps 3 --fast_dev_run --batch_size 2'
+    f'--data_dir {DATASETS_PATH} --max_epochs 1 --max_steps 3 --fast_dev_run --batch_size 100'
 ])
 def test_cli_run_self_supervised_moco(cli_args):
     """Test running CLI for an example with default params."""
