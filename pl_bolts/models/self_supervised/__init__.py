@@ -27,4 +27,3 @@ from pl_bolts.models.self_supervised.simclr.simclr_module import SimCLR
 from pl_bolts.models.self_supervised.ssl_finetuner import SSLFineTuner
 from pl_bolts.models.self_supervised.swav.swav_module import SwAV
 from pl_bolts.models.self_supervised.simsiam.simsiam_module import SimSiam
-
