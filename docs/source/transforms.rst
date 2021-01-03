@@ -44,6 +44,8 @@ STL-10 Eval (c)
 .. autoclass:: pl_bolts.models.self_supervised.cpc.transforms.CPCEvalTransformsSTL10
     :noindex:
 
+-------------------
+
 AMDIM transforms
 ----------------
 
@@ -80,6 +82,8 @@ STL-10 Eval (a)
 .. autoclass:: pl_bolts.models.self_supervised.amdim.transforms.AMDIMEvalTransformsSTL10
     :noindex:
 
+---------------
+
 MOCO V2 transforms
 ------------------
 
@@ -115,6 +119,8 @@ STL-10 Eval (m2)
 ^^^^^^^^^^^^^^^^^^^
 .. autoclass:: pl_bolts.models.self_supervised.moco.transforms.Moco2EvalImagenetTransforms
     :noindex:
+
+---------------
 
 SimCLR transforms
 ------------------
