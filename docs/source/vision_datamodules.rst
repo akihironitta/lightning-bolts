@@ -47,6 +47,8 @@ MNIST
 .. autoclass:: pl_bolts.datamodules.mnist_datamodule.MNISTDataModule
     :noindex:
 
+------------
+
 Semi-supervised learning
 ------------------------
 The following datasets have support for unlabeled training and semi-supervised learning where only a few examples
