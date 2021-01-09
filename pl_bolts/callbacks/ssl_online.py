@@ -120,7 +120,7 @@ class SSLOnlineEvaluator(Callback):  # pragma: no cover
         representations = representations.detach()
 
         # forward pass
-        mlp_preds = pl_module.non_linear_evaluator(representations)  # type: ignore[operator]
+        mlp_preds = pl_module.non_linear_evaluator(representations)
         mlp_loss = F.cross_entropy(mlp_preds, y)
 
         # log metrics
