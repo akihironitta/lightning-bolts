@@ -47,6 +47,7 @@ jobs:
           python-version: 3.8
       - name: Install mypy
         run: |
+          pip install pip --upgrade
           pip install mypy
           pip list
       - name: mypy
